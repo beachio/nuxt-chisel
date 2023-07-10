@@ -1,4 +1,4 @@
-import { useRuntimeConfig } from '#app'
+import { useRuntimeConfig, useFetch } from '#app'
 export const useChiselFindOne = (modelName: string, query: Object) => {
   const config = process.server ? useRuntimeConfig() : useRuntimeConfig().public
   const modelURL = `${config.chisel.parseServerURL}/classes/ct____${config.chisel.siteNameId}____${modelName}`;
