@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.0.8
+
+[compare changes](https://undefined/undefined/compare/v1.0.7...v1.0.8)
+
+### 🩹 Fixes
+
+- Include useRuntimeConfig for composables (6cb140b)
+
+### ❤️  Contributors
+
+- Alfred Takala <alfredtakala@yandex.com>
+
 ## v1.0.7
 
 [compare changes](https://undefined/undefined/compare/v1.0.6...v1.0.7)
