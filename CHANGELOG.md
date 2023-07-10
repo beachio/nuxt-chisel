@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.0.9
+
+[compare changes](https://undefined/undefined/compare/v1.0.8...v1.0.9)
+
+### 🩹 Fixes
+
+- Include useFetch as well for composables (f3cdfba)
+
+### ❤️  Contributors
+
+- Alfred Takala <alfredtakala@yandex.com>
+
 ## v1.0.8
 
 [compare changes](https://undefined/undefined/compare/v1.0.7...v1.0.8)
