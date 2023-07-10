@@ -1,3 +1,4 @@
+import { useRuntimeConfig } from '#app'
 const defaultQuery: Object = { t__status: "Published" }
 const defaultTransform = (data: any) => {
   return data && data.results ? data.results : [];
