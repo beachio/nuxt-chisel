@@ -43,8 +43,7 @@ export default defineNuxtModule<ModuleOptions>({
   defaults: {
     parseServerURL: process.env.PARSE_SERVER_URL || 'http://localhost:1337',
     parseAppId: process.env.PARSE_APP_ID || '',
-    siteId: process.env.PARSE_SITE_ID || '',
-    siteNameId: process.env.PARSE_SITE_NAME_ID || ''
+    siteId: process.env.PARSE_SITE_ID || ''
   },
   setup (options, nuxt) {
     // Default runtimeConfig

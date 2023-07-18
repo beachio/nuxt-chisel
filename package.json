@@ -1,6 +1,6 @@
 {
   "name": "nuxt-chisel",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Nuxt module for Chisel CMS",
   "repository": "beachio/nuxt-chisel",
   "license": "MIT",

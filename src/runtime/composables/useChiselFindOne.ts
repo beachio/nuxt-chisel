@@ -1,7 +1,7 @@
 import { useRuntimeConfig, useFetch } from '#app'
-export const useChiselFindOne = (modelName: string, query: Object) => {
+export const useChiselFindOne = (modelName: string, siteNameId: string, query: Object) => {
   const config = process.server ? useRuntimeConfig() : useRuntimeConfig().public
-  const modelURL = `${config.chisel.parseServerURL}/classes/ct____${config.chisel.siteNameId}____${modelName}`;
+  const modelURL = `${config.chisel.parseServerURL}/classes/ct____${siteNameId}____${modelName}`;
   return useFetch(modelURL, {
     method: 'POST',
     body: {
